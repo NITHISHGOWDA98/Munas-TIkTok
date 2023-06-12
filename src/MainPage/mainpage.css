@@ -6,12 +6,14 @@
   @media (min-width: 768px) {
     .responsive-image {
       max-width: 500px;
+      height: auto;
     }
   }
   
   @media (min-width: 1200px) {
     .responsive-image {
       max-width: 800px;
+      height: auto;
     }
   }
   
