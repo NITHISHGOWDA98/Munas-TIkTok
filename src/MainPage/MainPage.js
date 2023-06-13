@@ -12,6 +12,9 @@ function MainPage() {
       <div className=" MainPagecontainer">
         <div className="box1">
           <img src={img1} alt="1" />
+          {/* <div className="desc">
+            <h1>GYM WEAR</h1>
+          </div> */}
         </div>
         <div className="box2">
           <img src={img2} alt="1" />
