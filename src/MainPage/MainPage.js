@@ -1,12 +1,28 @@
-import React from 'react';
-import landingImage from '../assets/landing.jpg';
-import './mainpage.css';
-
+import React from "react";
+import "./mainpage.css";
+import { Header } from "./Header";
+import img1 from "../assets/img1.jpeg";
+import img2 from "../assets/img2.jpeg";
+import img3 from "../assets/img3.jpeg";
+import img4 from "../assets/img4.jpeg";
 function MainPage() {
   return (
-    <div className=" MainPage">
-      <h1>Image Demo</h1>
-      <img src={landingImage} alt="Demo " className="responsive-image" />
+    <div className="MainPage">
+      <Header />
+      <div className=" MainPagecontainer">
+        <div className="box1">
+          <img src={img1} alt="1" />
+        </div>
+        <div className="box2">
+          <img src={img2} alt="1" />
+        </div>
+        <div className="box3">
+          <img src={img3} alt="1" />
+        </div>
+        <div className="box4">
+          <img src={img4} alt="1" />
+        </div>
+      </div>
     </div>
   );
 }
