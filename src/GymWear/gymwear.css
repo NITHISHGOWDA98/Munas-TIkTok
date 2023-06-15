@@ -1,0 +1,10 @@
+.gymwear{
+   
+    display: flex;
+    flex-direction: row;
+ 
+}
+.gymwearcontent{
+    background-color: #dfdfdf;
+    flex: 1;
+}

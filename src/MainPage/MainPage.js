@@ -1,20 +1,25 @@
 import React from "react";
 import "./mainpage.css";
+import { BrowserRouter as Router, Switch, Route, Link, Navigate } from "react-router-dom";
 import { Header } from "./Header";
 import img1 from "../assets/img1.jpeg";
 import img2 from "../assets/img2.jpeg";
 import img3 from "../assets/img3.jpeg";
 import img4 from "../assets/img4.jpeg";
+import { GymWear } from "../GymWear/GymWear";
+import {  useNavigate } from "react-router-dom";
 
 function MainPage() {
+  const navigate = useNavigate();
   return (
     <div className="MainPage">
       <Header />
       <div className="MainPagecontainer">
         <div className="box1">
           <div className="imgd">
-            <img src={img1} alt="1" />
+            <img src={img1} alt="1" onClick={()=> navigate("/gymwear")}/>
           </div>
+
           <div className="box-description">
             <b>GYM WEAR</b>
           </div>
