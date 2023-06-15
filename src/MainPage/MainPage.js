@@ -6,8 +6,8 @@ import img1 from "../assets/img1.jpeg";
 import img2 from "../assets/img2.jpeg";
 import img3 from "../assets/img3.jpeg";
 import img4 from "../assets/img4.jpeg";
-import { GymWear } from "../GymWear/GymWear";
-import {  useNavigate } from "react-router-dom";
+
+import { useNavigate } from "react-router-dom";
 
 function MainPage() {
   const navigate = useNavigate();
@@ -17,35 +17,26 @@ function MainPage() {
       <div className="MainPagecontainer">
         <div className="box1">
           <div className="imgd">
-            <img src={img1} alt="1" onClick={()=> navigate("/gymwear")}/>
-          </div>
-
-          <div className="box-description">
-            <b>GYM WEAR</b>
+            <img src={img1} alt="1" onClick={() => navigate("/gymwear")} />
+            <div className="image-description">GYM WEAR</div>
           </div>
         </div>
         <div className="box2">
           <div className="imgd">
             <img src={img2} alt="2" />
-          </div>
-          <div className="box-description">
-            <b>SUMMER WEAR</b>
+            <div className="image-description">SUMMER WEAR</div>
           </div>
         </div>
         <div className="box3">
           <div className="imgd">
             <img src={img3} alt="3" />
-          </div>
-          <div className="box-description">
-            <b>CASUAL WEAR</b>
+            <div className="image-description">CASUAL WEAR</div>
           </div>
         </div>
         <div className="box4">
           <div className="imgd">
             <img src={img4} alt="4" />
-          </div>
-          <div className="box-description">
-            <b>PARTY WEAR</b>
+            <div className="image-description">PARTY WEAR</div>
           </div>
         </div>
       </div>

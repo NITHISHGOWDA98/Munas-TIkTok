@@ -17,8 +17,10 @@
 @media screen and (max-width: 767px) {
   .MainPagecontainer {
     grid-template-columns: repeat(2, 1fr);
+    
   }
 }
+
 
 @media screen and (min-width: 768px) {
   .MainPagecontainer {
@@ -68,9 +70,19 @@
   al styles you want for the hover effect */
 }
 
-.box-description {
-  flex-direction: column;
+.imgd {
+  position: relative;
+  text-align: center;
+}
+
+.image-description {
+  position: absolute;
+  bottom: 0;
+  left: -5px;
+  width: 100%;
+  color: #fff;
+  padding: 6px;
+  text-align: center;
+  font-weight: bold;
   font-size: 14px;
-  color: #333;
-  font-size: 20px;
 }
