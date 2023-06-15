@@ -21,7 +21,7 @@
     background-color: #dfdfdf;
     flex-direction: row;
     display: flex;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr); 
 }
 /* gymwear.css */
 .gymwear-item {
