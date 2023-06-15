@@ -1,9 +1,14 @@
 import React from "react";
-import "./sidebar.css"
+import "./sidebar.css";
 export const SideBar = () => {
   return (
-
-      <div className="sidebarmaincontent">SideBar</div>
-    
+    <>
+      <div className="sidebarmaincontent">
+        <div className="sidebarheader">
+        Filter
+        </div>
+        
+        </div>
+    </>
   );
 };

@@ -4,7 +4,71 @@
     flex-direction: row;
  
 }
-.gymwearcontent{
+.gymwearcontentobjects{
     background-color: #dfdfdf;
     flex: 1;
+    flex-direction: column;
+    display: flex;
+
 }
+.gymwearcontent{
+    background-color: #dfdfdf;
+    grid-template-columns: repeat(4, 1fr);
+    flex-direction: row;
+    display: flex;
+}
+.gymwearcontent1{
+    background-color: #dfdfdf;
+    flex-direction: row;
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+}
+/* gymwear.css */
+.gymwear-item {
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: bold;
+
+    /* Add more styles as needed */
+  }
+
+  .gymwearcontainer{
+    margin: 50px;
+  }
+  /* gymwear.css */
+.clothing-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+    width: 18vw;
+    height: 41vh;
+    object-fit: contain;
+  }
+  
+  .clothing-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .clothing-name {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .clothing-price {
+    font-size: 14px;
+    color: #777;
+  }
+  
