@@ -7,7 +7,7 @@ export const Header = () => {
   return (
     <div className="mainheader">
       <div className="headercontent">
-      <img src={Logo} alt="Demo " className="logo" />
+      <img src={Logo} alt="Demo " className="logo" onClick={()=> navigate("/")}/>
         <h1 onClick={()=> navigate("/")}>
           Munas TikTok
         </h1>
