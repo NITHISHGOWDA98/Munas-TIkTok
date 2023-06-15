@@ -1,6 +1,5 @@
 import React from "react";
 import "./mainpage.css";
-import { BrowserRouter as Router, Switch, Route, Link, Navigate } from "react-router-dom";
 import { Header } from "./Header";
 import img1 from "../assets/img1.jpeg";
 import img2 from "../assets/img2.jpeg";
@@ -23,19 +22,19 @@ function MainPage() {
         </div>
         <div className="box2">
           <div className="imgd">
-            <img src={img2} alt="2" />
+            <img src={img2} alt="2" onClick={() => navigate("/gymwear")}/>
             <div className="image-description">SUMMER WEAR</div>
           </div>
         </div>
         <div className="box3">
           <div className="imgd">
-            <img src={img3} alt="3" />
+            <img src={img3} alt="3" onClick={() => navigate("/gymwear")}/>
             <div className="image-description">CASUAL WEAR</div>
           </div>
         </div>
         <div className="box4">
           <div className="imgd">
-            <img src={img4} alt="4" />
+            <img src={img4} alt="4" onClick={() => navigate("/gymwear")} />
             <div className="image-description">PARTY WEAR</div>
           </div>
         </div>
