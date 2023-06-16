@@ -39,7 +39,7 @@ export const GymWear = () => {
     {
       id: 1,
       name: "Nike Dri-FIT Men's Training T-Shirt",
-      price: "700",
+      price: "7000",
       imageUrl:
         "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/8ab0abdd-4cc2-47f5-883e-eb4a902c7068/dri-fit-mens-training-t-shirt-ZMzCRw.png"
     },
