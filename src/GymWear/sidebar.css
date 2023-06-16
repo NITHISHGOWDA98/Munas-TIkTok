@@ -1,7 +1,7 @@
 
 .sidebarmaincontent{
     display: flex;
-    flex-direction: row;
+
     height: 100vh;
     width: 15vw;
     margin-left: 0px;
@@ -24,7 +24,7 @@
 }
 @media screen and (max-width: 767px) {
     .headerfilter {
-        display: flex;
+      display: flex;
       flex-direction: row;
       width: 22vw;
       height: 5vh;
@@ -45,7 +45,7 @@
   .headerfilter{
     display: flex;
     flex-direction: row;
-    width: 19vw;
+    width: 8vw;
     height: 7vh;
     margin: 7px;
     margin-left: 13px;
@@ -53,11 +53,54 @@
 
   .filtericon{
     margin-top: 18px;
-margin-left: -1px;
+    margin-left: -1px;
   }
   .filtertext{
     margin-top: -1px;
-margin-left: 2px;
+    margin-left: 2px;
   }
 }
   
+
+
+.options {
+    margin-top: 80px;
+    margin-left: 0px;
+  }
+  
+  .option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .option input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .option label {
+    font-size: 16px;
+  }
+
+ 
+  .size {
+    margin-top: 200px;
+    margin-left: -160px;
+  }
+  
+  .size h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .price {
+    margin-top: 370px;
+    margin-left: -110px;
+  }
+  
+  .price h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
