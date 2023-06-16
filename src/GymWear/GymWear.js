@@ -64,8 +64,7 @@ export const GymWear = () => {
       imageUrl:
         "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/i1-2ad24be7-f94e-49d0-8f4a-aa39a15fae36/pro-mens-training-shorts-v2CKMc.png"
     },
-    // Add more clothing objects as needed
-  ];
+  ]
 
 
   return (
