@@ -1,10 +1,13 @@
 
 .sidebarmaincontent{
     display: flex;
-    flex-direction: row;
-    height: 100vh;
+    flex-direction: column;
+    height: 100%;
     width: 15vw;
-    margin-left: 0px;
+    background-color: white;
+    position: fixed;
+  
+   
 }
 .sidebarmaincontent h2 {
     font-size: 20px;
@@ -45,10 +48,12 @@
   .headerfilter{
     display: flex;
     flex-direction: row;
-    width: 19vw;
+    width: 15vw;
     height: 7vh;
     margin: 7px;
-    margin-left: 13px;
+      
+    margin-left: 0px;
+    justify-content: center;
   }
 
   .filtericon{
@@ -60,4 +65,18 @@ margin-left: -1px;
 margin-left: 2px;
   }
 }
-  
+  .clothing ,.size , .price{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .option {
+   display: flex;
+   flex-direction: row;
+   padding: 10px;
+   font-size: 20px;
+  }
+  /* .options h2 {
+    display: flex;
+    justify-content: flex-start;
+  } */

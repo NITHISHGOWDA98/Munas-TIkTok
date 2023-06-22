@@ -1,36 +1,31 @@
 .gymwear{
    
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    margin-top: 14vh;
  
 }
 
 .gymwearcontentobjects{
-    background-color: #dfdfdf;
+    background-color: #ffffff;
     flex: 1;
-    flex-direction: column;
+    flex-direction: row;
     display: flex;
+    
 
 }
 .gymwearcontent{
-    background-color: #dfdfdf;
-    grid-template-columns: repeat(2, 1fr);
-    flex-direction: row;
-    display: flex;
-    justify-content: space-around;
-    padding: 15px;
-    margin: 10px 0px;
+  background-color: #dfdfdf;
+  grid-template-columns: repeat(4, 1fr);
+  display: grid;
+  justify-content: space-around;
+  /* padding: 15px; */
+  flex: 1;
+  margin-left: 15vw;
+ 
 }
-.gymwearcontent1{
-    background-color: #dfdfdf;
-    flex-direction: row;
-    display: flex;
-    grid-template-columns: repeat(3, 1fr); 
-    justify-content: space-around;
-    padding: 15px;
-     margin: 10px 0px;
-}
-/* gymwear.css */
+
+
 .gymwear-item {
     background-color: #f8f8f8;
     border: 1px solid #ccc;
@@ -38,8 +33,6 @@
     margin-bottom: 10px;
     color: #333;
     font-weight: bold;
-
-    /* Add more styles as needed */
   }
 
   .gymwearcontainer{
@@ -55,7 +48,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 10px;
+  
     background-color: #f8f8f8;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -64,12 +57,12 @@
     width: 18vw;
     height: 41vh;
     object-fit: contain;
-    transition: transform 0.3s;
+    /* transition: transform 0.3s; */
   }
   
-  .clothing-item:hover {
+  /* .clothing-item:hover {
     transform: scale(1.10);
-  }
+  }  */
   
   .clothing-image {
     width: 150px;
