@@ -76,7 +76,7 @@ export const SideBar = () => {
             <input type="checkbox" id="price-above-2000" name="price-above-2000" />
             <label htmlFor="price-above-2000">Above 2000</label>
           </div>
-          <hr className="divider2" />
+        
         </div>
 
 
